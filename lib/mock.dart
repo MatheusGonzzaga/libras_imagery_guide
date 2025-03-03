@@ -19,37 +19,43 @@ class Mock {
         {
           "image": "assets/roadmaps/industrial_revolution/images/ind_rev_1.jpg",
           "video": "assets/roadmaps/industrial_revolution/videos/ind_rev_1.mp4",
-          "description": "Texto explicativo caso tenha"
+          "description": "Tema\nRevolução Industrial"
         },
         {
           "image": "assets/roadmaps/industrial_revolution/images/ind_rev_2.jpg",
           "video": "assets/roadmaps/industrial_revolution/videos/ind_rev_2.mp4",
-          "description": "Texto explicativo caso tenha"
+          "description":
+              "Lugar da revolução: Inglaterra, bandeira da Inglaterra e o lugar no mapa."
         },
         {
           "image": "assets/roadmaps/industrial_revolution/images/ind_rev_3.jpg",
           "video": "assets/roadmaps/industrial_revolution/videos/ind_rev_3.mp4",
-          "description": "Texto explicativo caso tenha"
+          "description":
+              "Começo da revolução, primeiras fábricas surgindo. O campo e a mudança para o ambiente urbado."
         },
         {
           "image": "assets/roadmaps/industrial_revolution/images/ind_rev_4.jpg",
           "video": "assets/roadmaps/industrial_revolution/videos/ind_rev_4.mp4",
-          "description": "Texto explicativo caso tenha"
+          "description":
+              "Pessoas trabalhando dentro das fábricas em péssimas condições e muitas horas por dia."
         },
         {
           "image": "assets/roadmaps/industrial_revolution/images/ind_rev_5.jpg",
           "video": "assets/roadmaps/industrial_revolution/videos/ind_rev_5.mp4",
-          "description": "Texto explicativo caso tenha"
+          "description":
+              "Crinaças começaram a trabalhar nas fábricas forçadas, além do perigo."
         },
         {
           "image": "assets/roadmaps/industrial_revolution/images/ind_rev_6.jpg",
           "video": "assets/roadmaps/industrial_revolution/videos/ind_rev_6.mp4",
-          "description": "Texto explicativo caso tenha"
+          "description":
+              "As locomotivas foram surgindo e as pessoas apreciavam essas máquinas."
         },
         {
           "image": "assets/roadmaps/industrial_revolution/images/ind_rev_7.jpg",
           "video": "assets/roadmaps/industrial_revolution/videos/ind_rev_7.mp4",
-          "description": "Texto explicativo caso tenha"
+          "description":
+              "O comércio foi expandindo e a sociedade transformando. Do campo ao ambiente urbano."
         },
       ]
     }
@@ -192,6 +198,118 @@ class Mock {
       "meaning":
           "Arte de representar histórias por meio da atuação em um palco, com personagens e enredos dramáticos.",
       "video": "https://youtu.be/2YGSG2E9-74?si=U3bfpubQVAtAMFba"
+    },
+    {
+      "id": 21,
+      "name": "Egito",
+      "meaning":
+          "País localizado no nordeste da África, conhecido por sua civilização antiga, pirâmides e faraós.",
+      "video": "https://youtu.be/alFjJJeyw_8?si=tNdeQnWt1bWLee3l"
+    },
+    {
+      "id": 22,
+      "name": "Imperialismo",
+      "meaning":
+          "Política de expansão territorial e domínio econômico de uma nação sobre outra.",
+      "video": "https://youtu.be/b6K5xWRzAxs?si=vSTkOuln1oesd_Ut"
+    },
+    {
+      "id": 23,
+      "name": "América",
+      "meaning":
+          "Continente dividido em América do Norte, Central e do Sul, abrigando diversas culturas e países.",
+      "video": "https://youtu.be/xlA8YrNHNzs?si=2vXCHlTd_isvZckK"
+    },
+    {
+      "id": 24,
+      "name": "Indígena",
+      "meaning":
+          "Povos nativos de uma determinada região antes da colonização por outras civilizações.",
+      "video": "https://youtu.be/gkZfVN9Vze0?si=IX9dyjMpO-K8Sw2g"
+    },
+    {
+      "id": 25,
+      "name": "Humano",
+      "meaning":
+          "Ser pertencente à espécie Homo sapiens, caracterizado pela inteligência e cultura.",
+      "video": "https://youtu.be/_UTNoEkcOss?si=3xTW7Nd2LDQYrHVV"
+    },
+    {
+      "id": 26,
+      "name": "Nazismo",
+      "meaning":
+          "Ideologia política totalitária surgida na Alemanha no século XX, associada a Adolf Hitler e à Segunda Guerra Mundial.",
+      "video": "https://youtu.be/umkTHaZ6S14?si=9hTK43u1QWP-dzWJ"
+    },
+    {
+      "id": 27,
+      "name": "Idade Contemporânea",
+      "meaning":
+          "Período histórico que se inicia com a Revolução Francesa (1789) e se estende até os dias atuais.",
+      "video": "https://youtu.be/ZYitjEZzy2o?si=86uwKRKsif7IFejh"
+    },
+    {
+      "id": 28,
+      "name": "Social",
+      "meaning":
+          "Relaciona-se à sociedade e às interações entre indivíduos dentro de um grupo.",
+      "video": "https://youtu.be/9v0U6cvGG-M?si=UrLrSOb5F_3_1_gh"
+    },
+    {
+      "id": 29,
+      "name": "Brasil",
+      "meaning":
+          "País sul-americano, conhecido por sua diversidade cultural, territorial e natural.",
+      "video": "https://youtu.be/deKdHnm5-8g?si=YyWSKJE0Zd9esoI9"
+    },
+    {
+      "id": 30,
+      "name": "Terra",
+      "meaning":
+          "Planeta onde vivemos, o terceiro do sistema solar, ou solo fértil para cultivo.",
+      "video": "https://youtu.be/mKJgqk6uuC4?si=FzBSnZbjjuP_JxYR"
+    },
+    {
+      "id": 31,
+      "name": "Povo",
+      "meaning":
+          "Conjunto de indivíduos que compartilham uma cultura, território ou identidade comum.",
+      "video": "https://youtu.be/b-Ayq7hA0Qk?si=Ty2ctZBFbwkh9NWd"
+    },
+    {
+      "id": 32,
+      "name": "Tempo",
+      "meaning":
+          "Dimensão física associada à sequência de eventos ou condições climáticas de uma região.",
+      "video": "https://youtu.be/4sf6jLeQ9n0?si=M4lscH2jZ4hn7iCD"
+    },
+    {
+      "id": 33,
+      "name": "Revolução",
+      "meaning":
+          "Mudança radical em uma sociedade, política ou tecnologia, muitas vezes associada a conflitos.",
+      "video": "https://youtu.be/lpP4p5M2fVk?si=gZqDSJSa7atnD0Eb"
+    },
+    {
+      "id": 34,
+      "name": "Violência",
+      "meaning":
+          "Uso da força física ou psicológica para causar dano ou intimidação a alguém.",
+      "video": "https://youtu.be/_LDKRROTM-U?si=L-3aYdbeJpzBiB-p"
+    },
+    {
+      "id": 35,
+      "name": "Trabalhar",
+      "meaning":
+          "Realizar uma atividade produtiva com esforço físico ou mental para atingir um objetivo.",
+      "video": "https://youtu.be/IUDXCYSiR9E?si=PSIG-fd0Q68w6Rt2"
+    },
+    {
+      "id": 36,
+      "name": "Universidade",
+      "meaning":
+          "Instituição de ensino superior onde se realizam pesquisas e cursos acadêmicos.",
+      "video": "https://youtu.be/TpIvjsA5U94?si=fh-WomvFAtAy0J19"
     }
   ];
   static final epochs = [
@@ -211,14 +329,14 @@ class Mock {
       "title": "Sobre o Aplicativo",
       "description":
           '''Este aplicativo web, faz parte da Dissertação de Mestrado intitulada: Roteiros Imagéticos no ensino de História para Surdos: Uma proposta Histórico-crítica, como requisito para conclusão do Mestrado Profissional em Educação (PPEd) do Programa de Pós-graduação em Educação da Universidade Estadual do Norte do Paraná (UENP). Esta iniciativa é resultado de uma pesquisa-ação realizada em 2024 com egressos Surdos do Centro Educacional Especializado "Carlos Neufert" que já atingiram a maioridade e que já concluíram os anos finais do ensino fundamental, localizado no município de Jacarezinho, no estado do Paraná. A pesquisadora é Historiadora e docente da disciplina de Libras na UENP, nos cursos de História, Letras, Pedagogia e Fisioterapia, além de já ter atuado como Tradutora/Intérprete de Libras e Português (TILSP) na escola comum.
-          \n\nA motivação para o desenvolvimento deste produto decorre da experiência da autora como TILSP na educação básica e, posteriormente, como docente no curso de Licenciatura em História. A necessidade de adaptar os conteúdos de maneira acessível e eficaz torna-se cada vez mais premente, considerando que estudantes surdos estão inseridos em escolas regulares, em salas comuns, mas frequentemente enfrentam barreiras que comprometem seu aprendizado.
-          \n\nO desenvolvimento da pesquisa foi constituído por um grupo de estudos, que abarcou uma formação continuada com certificação para os participantes, no qual foi estruturado com base na Pedagogia Histórico-Crítica, na Pedagogia Visual e em práticas acessíveis, como o uso de roteiros imagéticos para o ensino de História, garantindo uma abordagem metodológica que considera as especificidades da aprendizagem de estudantes surdos. A pesquisa seguiu um percurso formativo fundamentado na metodologia dialética de Gasparin, derivada da proposta didática da Pedagogia Histórico-Crítica de Saviani, e organizada em cinco etapas: Prática Social Inicial, Problematização, Instrumentalização, Catarse e Prática Social Final
-          \n\nPara o planejamento dos encontros do Grupo, foram selecionados e discutidos textos fundamentais, incluindo A Construção do Pensamento e da Linguagem de Vygotsky (2009) e obras de Saviani, como Escola e Democracia (2003, 2009) e Pedagogia Histórico-Crítica (2013). Os participantes tiveram acesso a materiais escritos, discussões em Libras e imagens ilustrativas em slides. Além disso, foi utilizada uma revisão integrativa com textos de Libâneo (1994), Yokoyama (2005), Verri e Alegro (2006), e Kelman, Martins e Taveira (2012), abordando propostas de adaptações pedagógicas e relatos de experiências dos participantes.
-          \n\nA apresentação do protótipo do aplicativo incluiu um vídeo demonstrativo explorando suas funcionalidades e o conteúdo adaptado sobre a Revolução Industrial, estruturado em roteiro imagético com glossário de palavras-chave.
-          \n\nO estudo sobre inclusão foi embasado na obra Tenho um Aluno Surdo e Agora? com recortes dos capítulos sobre educação inclusiva e estratégias metodológicas para o ensino de surdos. Além disso, foram analisadas legislações pertinentes, como a Lei 10.436/2002, o Decreto 5.626/2005, a Lei 12.319/2010 e a Lei 14.191/2021. Durante os encontros, utilizaram-se vídeos, práticas acessíveis, apresentações em Libras e materiais de apoio para promover a reflexão e o debate em conjunto. Todas as etapas foram acompanhadas de slides adaptados e diários de anotações para registro das discussões e contribuições dos participantes.
-          \n\nA coleta de dados possibilitou a compreensão das práticas sociais dos participantes, seguida por momentos de estudo e instrumentalização, que culminaram na aplicação dos conhecimentos adquiridos e na avaliação da proposta pelos participantes, que promoveu um desenvolvimento mais aprimorado e de acordo com as opiniões dos Surdos do produto.
-          \n\nO produto foi desenvolvido com foco na praticidade e na usabilidade, proporcionando uma navegação intuitiva e acessível para os professores, que frequentemente enfrentam uma elevada carga de trabalho. A integração da tecnologia no contexto educacional não apenas otimiza o tempo e a produtividade docente, mas também amplia as possibilidades pedagógicas, permitindo a diversificação dos métodos de ensino e a personalização do aprendizado.''',
-      "video": "https://www.youtube.com/watch?v=LXtNejVhfuo"
+          \nA motivação para o desenvolvimento deste produto decorre da experiência da autora como TILSP na educação básica e, posteriormente, como docente no curso de Licenciatura em História. A necessidade de adaptar os conteúdos de maneira acessível e eficaz torna-se cada vez mais premente, considerando que estudantes surdos estão inseridos em escolas regulares, em salas comuns, mas frequentemente enfrentam barreiras que comprometem seu aprendizado.
+          \nO desenvolvimento da pesquisa foi constituído por um grupo de estudos, que abarcou uma formação continuada com certificação para os participantes, no qual foi estruturado com base na Pedagogia Histórico-Crítica, na Pedagogia Visual e em práticas acessíveis, como o uso de roteiros imagéticos para o ensino de História, garantindo uma abordagem metodológica que considera as especificidades da aprendizagem de estudantes surdos. A pesquisa seguiu um percurso formativo fundamentado na metodologia dialética de Gasparin, derivada da proposta didática da Pedagogia Histórico-Crítica de Saviani, e organizada em cinco etapas: Prática Social Inicial, Problematização, Instrumentalização, Catarse e Prática Social Final
+          \nPara o planejamento dos encontros do Grupo, foram selecionados e discutidos textos fundamentais, incluindo A Construção do Pensamento e da Linguagem de Vygotsky (2009) e obras de Saviani, como Escola e Democracia (2003, 2009) e Pedagogia Histórico-Crítica (2013). Os participantes tiveram acesso a materiais escritos, discussões em Libras e imagens ilustrativas em slides. Além disso, foi utilizada uma revisão integrativa com textos de Libâneo (1994), Yokoyama (2005), Verri e Alegro (2006), e Kelman, Martins e Taveira (2012), abordando propostas de adaptações pedagógicas e relatos de experiências dos participantes.
+          \nA apresentação do protótipo do aplicativo incluiu um vídeo demonstrativo explorando suas funcionalidades e o conteúdo adaptado sobre a Revolução Industrial, estruturado em roteiro imagético com glossário de palavras-chave.
+          \nO estudo sobre inclusão foi embasado na obra Tenho um Aluno Surdo e Agora? com recortes dos capítulos sobre educação inclusiva e estratégias metodológicas para o ensino de surdos. Além disso, foram analisadas legislações pertinentes, como a Lei 10.436/2002, o Decreto 5.626/2005, a Lei 12.319/2010 e a Lei 14.191/2021. Durante os encontros, utilizaram-se vídeos, práticas acessíveis, apresentações em Libras e materiais de apoio para promover a reflexão e o debate em conjunto. Todas as etapas foram acompanhadas de slides adaptados e diários de anotações para registro das discussões e contribuições dos participantes.
+          \nA coleta de dados possibilitou a compreensão das práticas sociais dos participantes, seguida por momentos de estudo e instrumentalização, que culminaram na aplicação dos conhecimentos adquiridos e na avaliação da proposta pelos participantes, que promoveu um desenvolvimento mais aprimorado e de acordo com as opiniões dos Surdos do produto.
+          \nO produto foi desenvolvido com foco na praticidade e na usabilidade, proporcionando uma navegação intuitiva e acessível para os professores, que frequentemente enfrentam uma elevada carga de trabalho. A integração da tecnologia no contexto educacional não apenas otimiza o tempo e a produtividade docente, mas também amplia as possibilidades pedagógicas, permitindo a diversificação dos métodos de ensino e a personalização do aprendizado.''',
+      "video": "https://youtu.be/Ba5dc4MWxQs?si=PnPd1644MbGGmdvm"
     },
   ];
   static final authors = [
@@ -227,7 +345,7 @@ class Mock {
       "description":
           '''Mestranda em Educação pelo Programa de Pós-Graduação em Educação, Mestrado Profissional em Educação Básica (PPEd)- UENP.
           \nProfessora de Libras na Universidade Estadual do Norte do Paraná. Professora Especialista na área visual no Centro Educacional Especializado “Carlos Neufert”/ AJADAVI.
-          \nEndereço eletrônico:\npamelagonzaga@uenp.edu.br''',
+          \nEndereço eletrônico: pamelagonzaga@uenp.edu.br''',
       "image": "assets/images/pamela.jpg",
       "video": "https://youtu.be/zTFmgNjx4EM?si=b4KfLvpjWlFu3mUh"
     },

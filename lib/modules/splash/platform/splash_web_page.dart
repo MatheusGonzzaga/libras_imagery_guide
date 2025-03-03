@@ -56,6 +56,7 @@ class _SplashWebPageState extends State<SplashWebPage> {
                             ),
                         Text(
                           'História Visual e Educação Crítica',
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.assistant(
                             fontSize: 32,
                             fontWeight: FontWeight.bold,
@@ -69,6 +70,7 @@ class _SplashWebPageState extends State<SplashWebPage> {
                             ),
                         Text(
                           'Um aplicativo Web Bílingue para o aprendizado de Surdos',
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.assistant(
                             fontSize: 24,
                             color: AppTheme.white,
@@ -81,6 +83,7 @@ class _SplashWebPageState extends State<SplashWebPage> {
                             ),
                         Text(
                           'Guia para o professor',
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.assistant(
                             fontSize: 24,
                             color: AppTheme.white,

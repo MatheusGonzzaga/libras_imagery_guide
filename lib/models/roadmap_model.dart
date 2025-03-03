@@ -46,7 +46,7 @@ class RoadmapModel {
     return {
       'id': id,
       'title': title,
-      'image_url': image,
+      'image': image,
       'epoch': epoch,
       'genres': genres,
       'words': words,

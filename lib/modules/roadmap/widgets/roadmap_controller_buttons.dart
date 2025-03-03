@@ -67,6 +67,9 @@ class RoadmapControllerButtons extends StatelessWidget {
                 child: Text('ANTERIOR'),
               ),
             ),
+            const SizedBox(
+              width: UiScale.s8,
+            ),
             ElevatedButton(
               onPressed: controller.hasNextPage ? controller.nextPage : null,
               child: Padding(

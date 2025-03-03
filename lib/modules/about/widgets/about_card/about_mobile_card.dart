@@ -28,69 +28,82 @@ class AboutMobileCard extends StatelessWidget {
           color: AppTheme.darkBlue,
           child: Padding(
             padding: const EdgeInsets.all(UiScale.s8)
-                .add(const EdgeInsets.only(right: 8.0)),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
+                .add(const EdgeInsets.only(right: UiScale.s8)),
+            child: Column(
               children: [
-                Expanded(
-                  child: ExpansionTile(
-                    initiallyExpanded: true,
-                    backgroundColor: AppTheme.darkBlue,
-                    collapsedBackgroundColor: AppTheme.darkBlue,
-                    textColor: AppTheme.yellow,
-                    collapsedTextColor: AppTheme.blue,
-                    collapsedShape: const RoundedRectangleBorder(
-                      borderRadius: BorderRadius.all(
-                        Radius.circular(UiScale.s8),
-                      ),
-                    ),
-                    shape: const RoundedRectangleBorder(
-                      borderRadius: BorderRadius.all(
-                        Radius.circular(UiScale.s8),
-                      ),
-                    ),
-                    iconColor: AppTheme.white,
-                    collapsedIconColor: AppTheme.white,
-                    title: Text(
-                      about.title,
-                      style: const TextStyle(
-                        fontSize: UiScale.s24,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: UiScale.s16),
+                  child: Row(
                     children: [
-                      Padding(
-                        padding: const EdgeInsets.all(UiScale.s12),
+                      Expanded(
                         child: Text(
-                          about.description,
+                          about.title,
                           style: TextStyle(
-                            color: AppTheme.white,
-                            fontSize: UiScale.s16,
-                            fontWeight: FontWeight.w500,
+                            fontSize:
+                                UiScale.scaleSize(constraints, UiScale.s64),
+                            fontWeight: FontWeight.bold,
+                            color: AppTheme.yellow,
                           ),
                         ),
                       ),
+                      Obx(() {
+                        return SizedBox(
+                          width: constraints.maxWidth * .08,
+                          child: IconButton(
+                            padding: EdgeInsets.zero,
+                            icon: Icon(
+                              controller.video != null
+                                  ? Icons.pause_circle
+                                  : Icons.play_circle,
+                              size: 50,
+                              color: controller.video != null
+                                  ? AppTheme.yellow
+                                  : AppTheme.blue,
+                            ),
+                            onPressed: onTap,
+                          ),
+                        );
+                      }),
                     ],
                   ),
                 ),
-                Obx(() {
-                  return SizedBox(
-                    width: constraints.maxWidth * .08,
-                    child: IconButton(
-                      padding: EdgeInsets.zero,
-                      icon: Icon(
-                        controller.video != null
-                            ? Icons.pause_circle
-                            : Icons.play_circle,
-                        size: 50,
-                        color: controller.video != null
-                            ? AppTheme.yellow
-                            : AppTheme.blue,
-                      ),
-                      onPressed: onTap,
+                ExpansionTile(
+                  tilePadding:
+                      const EdgeInsets.symmetric(horizontal: UiScale.s16),
+                  initiallyExpanded: true,
+                  backgroundColor: AppTheme.darkBlue,
+                  collapsedBackgroundColor: AppTheme.darkBlue,
+                  textColor: AppTheme.white,
+                  collapsedTextColor: AppTheme.white,
+                  shape: const RoundedRectangleBorder(
+                    borderRadius: BorderRadius.all(
+                      Radius.circular(UiScale.s8),
                     ),
-                  );
-                }),
+                  ),
+                  iconColor: AppTheme.white,
+                  collapsedIconColor: AppTheme.white,
+                  title: Text(
+                    'Apresentação',
+                    style: TextStyle(
+                      fontSize: UiScale.scaleSize(constraints, UiScale.s48),
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(UiScale.s12),
+                      child: Text(
+                        about.description,
+                        textAlign: TextAlign.justify,
+                        style: TextStyle(
+                          color: AppTheme.white,
+                          fontSize: UiScale.s16,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ],
             ),
           ),

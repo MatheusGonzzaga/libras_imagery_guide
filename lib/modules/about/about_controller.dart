@@ -48,27 +48,7 @@ class AboutController extends GetxController with LoaderMixin, MessagesMixin {
     }
   }
 
-  // void selectAboutVideo(AboutModel about) {
-  //   print('Selecionando vídeo: ${about.videoUrl}');
-
-  //   if (_video.value == about.videoUrl) {
-  //     clearVideo();
-  //   } else {
-  //     _video.value = about.videoUrl;
-  //   }
-  // }
-
-  // void clearVideo() {
-  //   _video.value = null;
-  //   Future.delayed(const Duration(milliseconds: 300), () {
-  //     // Pequeno delay para evitar que o YouTubePlayer fique em estado inválido
-  //     _video.refresh();
-  //   });
-  // }
-
   void selectAboutVideo(AboutModel about) {
-    print('Selecionando vídeo: ${about.videoUrl}');
-
     if (_video.value == about.videoUrl) {
       _clearVideo();
     } else {

@@ -48,10 +48,10 @@ class HomeWebPage extends GetView<HomeController> {
         elevation: 2,
       ),
       body: Navigator(
-        initialRoute: '/roadmaps',
+        initialRoute: '/about',
         key: Get.nestedKey(HomeController.NAVIGATOR_KEY),
         onGenerateRoute: (settings) {
-          controller.updatePageIndex(settings.name ?? '/roadmaps');
+          controller.updatePageIndex(settings.name ?? '/about');
 
           switch (settings.name) {
             case '/about':

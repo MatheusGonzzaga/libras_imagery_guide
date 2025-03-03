@@ -105,8 +105,10 @@ class RoadmapMobilePage extends StatelessWidget {
                         width: constraints.maxWidth * .8,
                         child: Padding(
                           padding: const EdgeInsets.only(bottom: UiScale.s16),
-                          child: RoadmapControllerButtons(
-                            controller: controller,
+                          child: FittedBox(
+                            child: RoadmapControllerButtons(
+                              controller: controller,
+                            ),
                           ),
                         ),
                       ),

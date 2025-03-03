@@ -50,6 +50,7 @@ class _SplashMobilePageState extends State<SplashMobilePage> {
                     ),
                 Text(
                   'História Visual e Educação Crítica',
+                  textAlign: TextAlign.center,
                   style: GoogleFonts.assistant(
                     fontSize: UiScale.s24,
                     fontWeight: FontWeight.bold,
@@ -63,6 +64,7 @@ class _SplashMobilePageState extends State<SplashMobilePage> {
                     ),
                 Text(
                   'Um aplicativo Web Bílingue para o aprendizado de Surdos',
+                  textAlign: TextAlign.center,
                   style: GoogleFonts.assistant(
                     fontSize: UiScale.s16,
                     color: AppTheme.white,
@@ -75,6 +77,7 @@ class _SplashMobilePageState extends State<SplashMobilePage> {
                     ),
                 Text(
                   'Guia para o professor',
+                  textAlign: TextAlign.center,
                   style: GoogleFonts.assistant(
                     fontSize: UiScale.s16,
                     color: AppTheme.white,

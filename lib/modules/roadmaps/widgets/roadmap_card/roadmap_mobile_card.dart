@@ -46,7 +46,7 @@ class RoadmapMobileCard extends StatelessWidget {
                         child: Stack(
                           alignment: Alignment.center,
                           children: [
-                            Image.network(
+                            Image.asset(
                               roadmap.image,
                               fit: BoxFit.fill,
                               width: Get.width,
