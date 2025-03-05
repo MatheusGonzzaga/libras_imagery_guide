@@ -10,12 +10,14 @@ class PdfViewerPage extends StatelessWidget {
   final String title;
   final String path;
   final double pdfHeight;
+  final bool isVideoVisible;
 
   const PdfViewerPage({
     super.key,
     required this.title,
     required this.path,
     required this.pdfHeight,
+    required this.isVideoVisible,
   });
 
   void _downloadPdf() {
@@ -32,47 +34,53 @@ class PdfViewerPage extends StatelessWidget {
         horizontal: UiScale.s16,
       ),
       child: LayoutBuilder(builder: (context, constraints) {
-        return Column(
-          children: [
-            ListTile(
-              tileColor: AppTheme.darkBlue,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(UiScale.s8),
-              ),
-              title: Text(
-                title,
-                style: TextStyle(
-                  color: AppTheme.white,
-                  fontWeight: FontWeight.bold,
+        return SingleChildScrollView(
+          child: Column(
+            children: [
+              ListTile(
+                tileColor: AppTheme.darkBlue,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(UiScale.s8),
+                ),
+                title: Text(
+                  title,
+                  style: TextStyle(
+                    color: AppTheme.white,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                trailing: IconButton(
+                  icon: Icon(
+                    Icons.download,
+                    color: AppTheme.white,
+                  ),
+                  onPressed: () => _downloadPdf(),
                 ),
               ),
-              trailing: IconButton(
-                icon: Icon(
-                  Icons.download,
-                  color: AppTheme.white,
+              const SizedBox(
+                height: UiScale.s8,
+              ),
+              Container(
+                decoration: BoxDecoration(
+                  color: AppTheme.darkBlue,
+                  borderRadius: BorderRadius.circular(UiScale.s8),
                 ),
-                onPressed: () => _downloadPdf(),
-              ),
-            ),
-            const SizedBox(
-              height: UiScale.s8,
-            ),
-            Container(
-              decoration: BoxDecoration(
-                color: AppTheme.darkBlue,
-                borderRadius: BorderRadius.circular(UiScale.s8),
-              ),
-              padding: const EdgeInsets.all(UiScale.s8),
-              height: constraints.maxHeight * pdfHeight,
-              child: PdfViewer.asset(
-                path,
-                params: PdfViewerParams(
-                  scrollByMouseWheel: 1.0,
-                  backgroundColor: AppTheme.darkBlue,
+                padding: const EdgeInsets.all(UiScale.s8),
+                height: constraints.maxHeight * pdfHeight,
+                child: PdfViewer.asset(
+                  path,
+                  params: PdfViewerParams(
+                    scrollByMouseWheel: 3.0,
+                    backgroundColor: AppTheme.darkBlue,
+                  ),
                 ),
               ),
-            ),
-          ],
+              if (isVideoVisible)
+                SizedBox(
+                  height: constraints.maxHeight * .35,
+                )
+            ],
+          ),
         );
       }),
     );

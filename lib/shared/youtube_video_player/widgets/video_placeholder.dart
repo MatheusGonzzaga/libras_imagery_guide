@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:libras_imagery_guide/application/ui/theme_config.dart';
 import 'package:libras_imagery_guide/application/ui/ui_scale.dart';
-import 'package:libras_imagery_guide/application/ui/ui_text.dart';
 
 class VideoPlaceholder extends StatelessWidget {
-  const VideoPlaceholder({super.key});
+  final String? text;
+  const VideoPlaceholder({
+    super.key,
+    this.text,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -22,12 +25,12 @@ class VideoPlaceholder extends StatelessWidget {
       child: Column(
         children: [
           const Spacer(),
-          const Padding(
-            padding: EdgeInsets.symmetric(horizontal: UiScale.s40),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: UiScale.s40),
             child: Text(
-              UiText.clickWord,
+              text ?? '',
               textAlign: TextAlign.center,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: UiScale.s24,
                 color: Colors.white,
               ),

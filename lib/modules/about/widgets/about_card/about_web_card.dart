@@ -40,7 +40,7 @@ class AboutWebCard extends StatelessWidget {
                           about.title,
                           style: TextStyle(
                             fontSize:
-                                UiScale.scaleSize(constraints, UiScale.s40),
+                                UiScale.scaleSize(constraints, UiScale.s32),
                             fontWeight: FontWeight.bold,
                             color: AppTheme.yellow,
                           ),
@@ -69,7 +69,8 @@ class AboutWebCard extends StatelessWidget {
                 ),
                 ExpansionTile(
                   tilePadding:
-                      const EdgeInsets.symmetric(horizontal: UiScale.s16),
+                      const EdgeInsets.symmetric(horizontal: UiScale.s16)
+                          .add(const EdgeInsets.only(right: UiScale.s12)),
                   initiallyExpanded: true,
                   backgroundColor: AppTheme.darkBlue,
                   collapsedBackgroundColor: AppTheme.darkBlue,

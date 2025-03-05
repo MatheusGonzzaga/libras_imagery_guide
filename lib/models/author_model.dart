@@ -2,11 +2,13 @@ import 'dart:convert';
 
 class AuthorModel {
   final String name;
+  final String position;
   final String description;
   final String image;
 
   AuthorModel({
     required this.name,
+    required this.position,
     required this.description,
     required this.image,
   });
@@ -14,6 +16,7 @@ class AuthorModel {
   Map<String, dynamic> toMap() {
     return {
       'name': name,
+      'position': position,
       'description': description,
       'image': image,
     };
@@ -22,6 +25,7 @@ class AuthorModel {
   factory AuthorModel.fromMap(Map<String, dynamic> map) {
     return AuthorModel(
       name: map['name'] ?? '',
+      position: map['position'] ?? '',
       description: map['description'] ?? '',
       image: map['image'] ?? '',
     );

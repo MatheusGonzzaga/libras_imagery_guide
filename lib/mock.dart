@@ -3,9 +3,12 @@ class Mock {
   static const guidePath =
       "assets/docs/Guia_Prático_para_o_Desenvolvimento_de_Roteiros_Imagéticos_Sinalizados.pdf";
   static const guideVideos = [
-    "https://youtu.be/Ba5dc4MWxQs?si=OxxCrDBjgu4qXQHc",
-    "https://youtu.be/Ba5dc4MWxQs?si=OxxCrDBjgu4qXQHc",
-    "https://youtu.be/Ba5dc4MWxQs?si=OxxCrDBjgu4qXQHc"
+    "https://youtu.be/6dqMBrsG0U8?si=hSOFKivXIsI_Iakn",
+    "https://youtu.be/QVhsumg20kM?si=OkTJZAHqZ-z-557m",
+    "https://youtu.be/PkUJXG739rQ?si=SPBhctG8B7H2j6wB",
+    "https://youtu.be/9IEDyFtYUYk?si=mdQIrI2CCL7hZX6e",
+    "https://youtu.be/6V0yhv9eh7I?si=ExMgFqYXRh7WZJkr",
+    "https://youtu.be/-YTbm2UvB4o?si=asoAYl1UwDrjOvuP",
   ];
   static final roadmaps = [
     {
@@ -342,21 +345,24 @@ class Mock {
   static final authors = [
     {
       "name": "Pamela Cristina Pereira Gonzaga",
+      "position": "Autora e Tradutora/Intérprete de Libras",
       "description":
-          '''Mestranda em Educação pelo Programa de Pós-Graduação em Educação, Mestrado Profissional em Educação Básica (PPEd)- UENP.
-          \nProfessora de Libras na Universidade Estadual do Norte do Paraná. Professora Especialista na área visual no Centro Educacional Especializado “Carlos Neufert”/ AJADAVI.
-          \nEndereço eletrônico: pamelagonzaga@uenp.edu.br''',
-      "image": "assets/images/pamela.jpg",
-      "video": "https://youtu.be/zTFmgNjx4EM?si=b4KfLvpjWlFu3mUh"
+          "Mestranda em Educação pelo Programa de Pós-Graduação em Educação, Mestrado Profissional em Educação Básica (PPEd) - UENP.\n\nProfessora de Libras na Universidade Estadual do Norte do Paraná. Professora especialista na área visual no Centro Educacional Especializado “Carlos Neufert”/AJADAVI.\n\nEndereço eletrônico: pamelagonzaga@uenp.edu.br",
+      "image": "assets/images/pamela.jpg"
     },
     {
-      "name": "Vanessa Ruckstadter",
-      "description": '''Doutora em Educação.
-          \nProfessora Associada do Centro de Ciências Humanas e da Educação da Universidade Estadual do Norte do Paraná, campus Jacarezinho.
-          \nDocente do curso de História e do Programa de Pós-Graduação em Educação, Mestrado Profissional em Educação Básica (PPEd).
-          \nEndereço eletrônico: vanessaruckstadter@uenp.edu.br''',
-      "image": "assets/images/vanessa.jpg",
-      "video": "https://www.youtube.com/watch?v=_Fi1-exAVJM"
+      "name": "Vanessa Campos Mariano Ruckstadter",
+      "position": "Revisora",
+      "description":
+          "Doutora em Educação.\n\nProfessora associada do Centro de Ciências Humanas e da Educação da Universidade Estadual do Norte do Paraná, campus Jacarezinho.\n\nDocente do curso de História e do Programa de Pós-Graduação em Educação, Mestrado Profissional em Educação Básica (PPEd).\n\nEndereço eletrônico: vanessaruckstadter@uenp.edu.br",
+      "image": "assets/images/vanessa.jpg"
     },
+    {
+      "name": "Matheus Pereira Gonzaga",
+      "position": "Desenvolvedor do Sistema",
+      "description":
+          "Desenvolvedor Mobile.\n\nGraduado em Engenharia de Produção (Ênfase em Software) pela Universidade Estadual de Maringá (UEM).\n\nEndereço eletrônico: matheusgonzzaga.18@gmail.com",
+      "image": "assets/images/matheus.jpeg"
+    }
   ];
 }

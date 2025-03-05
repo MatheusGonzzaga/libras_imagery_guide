@@ -115,20 +115,18 @@ class GuideMobilePage extends StatelessWidget {
           return Stack(
             alignment: Alignment.bottomCenter,
             children: [
-              Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  SizedBox(
-                    width: constraints.maxWidth,
-                    child: const PdfViewerPage(
-                      title:
-                          'Guia Prático para o Desenvolvimento de Roteiros Imagéticos Sinalizados',
-                      path: Mock.guidePath,
-                      pdfHeight: .88,
-                    ),
+              Obx(() {
+                return SizedBox(
+                  width: constraints.maxWidth,
+                  child: PdfViewerPage(
+                    title:
+                        'Guia Prático para o Desenvolvimento de Roteiros Imagéticos Sinalizados',
+                    path: Mock.guidePath,
+                    pdfHeight: .85,
+                    isVideoVisible: controller.isVideoVisible,
                   ),
-                ],
-              ),
+                );
+              }),
               Obx(() {
                 if (controller.isVideoVisible) {
                   return Column(

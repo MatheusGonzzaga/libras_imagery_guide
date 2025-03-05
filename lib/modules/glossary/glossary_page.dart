@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:libras_imagery_guide/application/ui/platform_utils/platform_utils.dart';
 import 'package:libras_imagery_guide/application/ui/theme_config.dart';
 import 'package:libras_imagery_guide/application/ui/ui_scale.dart';
+import 'package:libras_imagery_guide/application/ui/ui_text.dart';
 import 'package:libras_imagery_guide/modules/glossary/glossary_controller.dart';
 import 'package:libras_imagery_guide/modules/glossary/widgets/glossary_card.dart';
 import 'package:libras_imagery_guide/modules/glossary/widgets/glossary_search_field.dart';

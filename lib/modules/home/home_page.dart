@@ -13,8 +13,8 @@ import 'package:libras_imagery_guide/modules/roadmaps/roadmaps_bindings.dart';
 import 'package:libras_imagery_guide/modules/roadmaps/roadmaps_page.dart';
 import 'package:libras_imagery_guide/modules/home/home_controller.dart';
 
-part 'plarform/home_mobile_page.dart';
-part 'plarform/home_web_page.dart';
+part 'platform/home_mobile_page.dart';
+part 'platform/home_web_page.dart';
 
 class HomePage extends GetView<HomeController> {
   const HomePage({super.key});

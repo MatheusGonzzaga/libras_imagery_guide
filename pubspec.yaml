@@ -34,6 +34,7 @@ flutter:
     - assets/logo/
     - assets/docs/
     - assets/images/
+    - assets/prototype/
     - assets/roadmaps/industrial_revolution/images/
     - assets/roadmaps/industrial_revolution/videos/
 

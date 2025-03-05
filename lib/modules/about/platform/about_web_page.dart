@@ -32,6 +32,7 @@ class AboutWebPage extends GetView<AboutController> {
                           },
                         ),
                       ),
+                      const PrototypeCard(),
                       ...List.from(
                         controller.authors.map(
                           (author) {

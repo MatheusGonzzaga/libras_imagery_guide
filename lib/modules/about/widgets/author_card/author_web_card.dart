@@ -61,25 +61,40 @@ class AuthorWebCard extends StatelessWidget {
                             contentPadding: const EdgeInsets.only(
                               right: UiScale.s8,
                             ),
+                            dense: true,
+                            visualDensity: VisualDensity.compact,
                             title: Padding(
                               padding:
                                   const EdgeInsets.only(bottom: UiScale.s16),
                               child: Text(
                                 author.name,
                                 style: TextStyle(
-                                  color: AppTheme.blue,
+                                  color: AppTheme.yellow,
                                   fontSize: UiScale.s24,
                                   fontWeight: FontWeight.bold,
+                                  height: .5,
                                 ),
                               ),
                             ),
                             subtitle: Text(
-                              author.description,
+                              author.position,
                               style: TextStyle(
-                                color: AppTheme.white,
-                                fontSize: UiScale.s16,
+                                color: AppTheme.blue,
+                                fontSize: UiScale.s20,
                                 fontWeight: FontWeight.w500,
+                                height: .5,
                               ),
+                            ),
+                          ),
+                          const SizedBox(
+                            height: UiScale.s16,
+                          ),
+                          Text(
+                            author.description,
+                            style: TextStyle(
+                              color: AppTheme.white,
+                              fontSize: UiScale.s16,
+                              fontWeight: FontWeight.w500,
                             ),
                           ),
                         ],

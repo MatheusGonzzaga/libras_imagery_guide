@@ -6,6 +6,7 @@ import 'package:libras_imagery_guide/application/bindings/application_bindings.d
 import 'package:libras_imagery_guide/application/ui/app_ui_config.dart';
 
 import 'package:libras_imagery_guide/modules/home/home_module.dart';
+import 'package:libras_imagery_guide/modules/prototype/prototype_module.dart';
 import 'package:libras_imagery_guide/modules/roadmap/roadmap_module.dart';
 import 'package:libras_imagery_guide/modules/splash/splash_module.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -40,6 +41,7 @@ class LibrasImageryGuide extends StatelessWidget {
         ...SplashModule().routers,
         ...HomeModule().routers,
         ...RoadmapModule().routers,
+        ...PrototypeModule().routers
       ],
     );
   }

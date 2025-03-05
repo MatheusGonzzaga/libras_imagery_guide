@@ -65,7 +65,9 @@ class GlossaryWebPage extends GetView<GlossaryController> {
                         ),
                       ),
                     )
-                  : const VideoPlaceholder(),
+                  : const VideoPlaceholder(
+                      text: UiText.clickWord,
+                    ),
             ),
           ],
         );

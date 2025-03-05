@@ -68,6 +68,7 @@ class GuideWebPage extends GetView<GuideController> {
                       'Guia Prático para o Desenvolvimento de Roteiros Imagéticos Sinalizados',
                   path: Mock.guidePath,
                   pdfHeight: .9,
+                  isVideoVisible: false,
                 ),
               ),
               Obx(() {

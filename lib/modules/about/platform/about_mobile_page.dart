@@ -1,12 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_animate/flutter_animate.dart';
-import 'package:get/get.dart';
-import 'package:libras_imagery_guide/application/ui/theme_config.dart';
-import 'package:libras_imagery_guide/application/ui/ui_scale.dart';
-import 'package:libras_imagery_guide/modules/about/about_controller.dart';
-import 'package:libras_imagery_guide/modules/about/widgets/about_card/about_mobile_card.dart';
-import 'package:libras_imagery_guide/modules/about/widgets/author_card/author_mobile_card.dart';
-import 'package:libras_imagery_guide/shared/youtube_video_player/youtube_video_player.dart';
+part of '../about_page.dart';
 
 class AboutMobilePage extends GetView<AboutController> {
   const AboutMobilePage({super.key});
@@ -39,6 +31,7 @@ class AboutMobilePage extends GetView<AboutController> {
                           },
                         ),
                       ),
+                      const PrototypeCard(),
                       ...List.from(
                         controller.authors.map(
                           (author) {
