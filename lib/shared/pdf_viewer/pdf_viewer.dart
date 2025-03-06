@@ -21,7 +21,11 @@ class PdfViewerPage extends StatelessWidget {
   });
 
   void _downloadPdf() {
-    html.window.open(path, path.split('/').last);
+    // Caminho dentro do projeto Flutter
+    final String fullPath = '${html.window.location.origin}/$path';
+    html.window.open(fullPath, '_blank');
+
+    // html.window.open(path, path.split('/').last);
     // html.AnchorElement(href: path)
     //   ..setAttribute("download", path.split('/').last)
     //   ..click();

@@ -32,11 +32,11 @@ flutter:
 
   assets:
     - assets/logo/
-    - assets/docs/
     - assets/images/
     - assets/prototype/
     - assets/roadmaps/industrial_revolution/images/
     - assets/roadmaps/industrial_revolution/videos/
+    - assets/docs/Guia_Prático_para_o_Desenvolvimento_de_Roteiros_Imagéticos_Sinalizados.pdf
 
   fonts:
     - family: Montserrat
