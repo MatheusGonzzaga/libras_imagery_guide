@@ -37,7 +37,7 @@ class HomeWebPage extends GetView<HomeController> {
           children: [
             _buildNavButton('INÍCIO', 0),
             const SizedBox(width: 16),
-            _buildNavButton('ROTEIRO IMAGÉTICO', 1),
+            _buildNavButton('ROTEIROS', 1),
             const SizedBox(width: 16),
             _buildNavButton('GUIA', 2),
             const SizedBox(width: 16),

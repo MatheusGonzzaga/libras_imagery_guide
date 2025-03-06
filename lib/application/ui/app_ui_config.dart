@@ -6,7 +6,7 @@ import 'package:libras_imagery_guide/application/ui/ui_text.dart';
 class AppUiConfig {
   AppUiConfig._();
 
-  static String get title => 'Libras Guide';
+  static String get title => 'História Visual e Libras';
 
   static ThemeData get theme => ThemeData(
         fontFamily: UiFont.Montserrat.name,
