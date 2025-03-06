@@ -12,6 +12,9 @@ class WordsServiceImpl implements WordsService {
   @override
   Future<List<WordModel>> getWords({List<int>? ids}) async {
     final words = await _wordsRepository.getWords(ids: ids);
+
+    words.sort((a, b) => a.name.toLowerCase().compareTo(b.name.toLowerCase()));
+
     return words;
   }
 }

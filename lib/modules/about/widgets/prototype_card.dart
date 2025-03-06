@@ -19,8 +19,7 @@ class PrototypeCard extends StatelessWidget {
           ),
           color: AppTheme.darkBlue,
           child: Padding(
-            padding: const EdgeInsets.all(UiScale.s8)
-                .add(const EdgeInsets.only(right: UiScale.s8)),
+            padding: const EdgeInsets.all(UiScale.s8),
             child: ListTile(
               onTap: () {
                 Get.toNamed('/prototype');
@@ -37,7 +36,7 @@ class PrototypeCard extends StatelessWidget {
               trailing: Icon(
                 Icons.arrow_forward_ios_rounded,
                 color: AppTheme.white,
-                size: UiScale.s32,
+                size: UiScale.s24,
               ),
             ),
           ),

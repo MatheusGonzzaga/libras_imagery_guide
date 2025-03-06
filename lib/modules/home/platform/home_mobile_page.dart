@@ -9,6 +9,13 @@ class HomeMobilePage extends GetView<HomeController> {
       body: Navigator(
         initialRoute: '/about',
         key: Get.nestedKey(HomeController.NAVIGATOR_KEY),
+        observers: [
+          GetObserver((routing) {
+            if (routing?.current != null) {
+              controller.updatePageIndex(routing!.current);
+            }
+          })
+        ],
         onGenerateRoute: (settings) {
           if (settings.name == '/about') {
             return GetPageRoute(
@@ -52,7 +59,7 @@ class HomeMobilePage extends GetView<HomeController> {
           items: const [
             BottomNavigationBarItem(
               icon: Icon(Icons.home),
-              label: 'InÍcio',
+              label: 'Início',
             ),
             BottomNavigationBarItem(
               icon: Icon(

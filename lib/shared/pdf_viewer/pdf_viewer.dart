@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:libras_imagery_guide/application/ui/theme_config.dart';
 import 'package:libras_imagery_guide/application/ui/ui_scale.dart';
-// ignore: avoid_web_libraries_in_flutter
-import 'dart:html' as html;
 import 'package:pdfrx/pdfrx.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class PdfViewerPage extends StatelessWidget {
   final String title;
@@ -20,15 +19,13 @@ class PdfViewerPage extends StatelessWidget {
     required this.isVideoVisible,
   });
 
-  void _downloadPdf() {
-    // Caminho dentro do projeto Flutter
-    final String fullPath = '${html.window.location.origin}/$path';
-    html.window.open(fullPath, '_blank');
+  Future<void> _downloadPdf() async {
+    final Uri url = Uri.parse(
+        "https://drive.google.com/file/d/1I-qj0m1hWToeEG6pEtejOzVgqnm3Kyy4/view");
 
-    // html.window.open(path, path.split('/').last);
-    // html.AnchorElement(href: path)
-    //   ..setAttribute("download", path.split('/').last)
-    //   ..click();
+    if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
+      throw "Não foi possível abrir o link";
+    }
   }
 
   @override
@@ -59,7 +56,7 @@ class PdfViewerPage extends StatelessWidget {
                     Icons.download,
                     color: AppTheme.white,
                   ),
-                  onPressed: () => _downloadPdf(),
+                  onPressed: () async => await _downloadPdf(),
                 ),
               ),
               const SizedBox(

@@ -7,11 +7,11 @@ class HomeController extends GetxController {
 
   final RxInt _pageIndex = 0.obs;
 
-  int get pageIndex => _pageIndex.value;
+  int get pageIndex => _pageIndex();
 
   void goToPage(int page) {
     _pageIndex.value = page;
-    Get.offNamed(_pages[page], id: NAVIGATOR_KEY);
+    Get.toNamed(_pages[page], id: NAVIGATOR_KEY);
   }
 
   void updatePageIndex(String route) {
