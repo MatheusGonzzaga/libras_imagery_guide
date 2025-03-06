@@ -316,67 +316,67 @@ class Mock {
     },
     {
       "id": 37,
-      "name": "Mesopotamia",
+      "name": "Mesopotâmia",
       "meaning":
-          "Instituição de ensino superior onde se realizam pesquisas e cursos acadêmicos.",
+          "Região histórica localizada entre os rios Tigre e Eufrates, berço de civilizações como os sumérios e babilônios.",
       "video": "https://youtu.be/_nD5LB7pTEY?si=g-OoFNINvG2MwlPV"
     },
     {
       "id": 38,
-      "name": "Estados Unidos da America",
+      "name": "Estados Unidos da América",
       "meaning":
-          "Instituição de ensino superior onde se realizam pesquisas e cursos acadêmicos.",
+          "País localizado na América do Norte, conhecido por sua influência econômica, cultural e política no mundo.",
       "video": "https://youtu.be/Su088oUzTTg?si=iVd5YQ4By_Qd010q"
     },
     {
       "id": 39,
       "name": "Holocausto",
       "meaning":
-          "Instituição de ensino superior onde se realizam pesquisas e cursos acadêmicos.",
+          "Genocídio cometido pelo regime nazista durante a Segunda Guerra Mundial, resultando na morte de milhões de judeus e outros grupos perseguidos.",
       "video": "https://youtu.be/mvmoBUUXXaw?si=8rvE9vzIkYdw8i51"
     },
     {
       "id": 40,
       "name": "Mercantilismo",
       "meaning":
-          "Instituição de ensino superior onde se realizam pesquisas e cursos acadêmicos.",
+          "Sistema econômico vigente entre os séculos XVI e XVIII, baseado na acumulação de metais preciosos e no controle estatal da economia.",
       "video": "https://youtu.be/bVqLiCYQZrI?si=tLocbCkSH4lfcwVw"
     },
     {
       "id": 41,
       "name": "Capitalismo",
       "meaning":
-          "Instituição de ensino superior onde se realizam pesquisas e cursos acadêmicos.",
+          "Sistema econômico baseado na propriedade privada dos meios de produção e na livre concorrência de mercado.",
       "video": "https://youtu.be/gc_MNS9ywzE?si=yNLa5s38Qe9zFlEl"
     },
     {
       "id": 42,
       "name": "Socialismo",
       "meaning":
-          "Instituição de ensino superior onde se realizam pesquisas e cursos acadêmicos.",
+          "Sistema político e econômico que defende a distribuição igualitária de riquezas e o controle dos meios de produção pelo Estado ou pela coletividade.",
       "video": "https://youtu.be/s_1RBIxkTOI?si=GrpVge-YTXMD5xHq"
     },
     {
       "id": 43,
       "name": "Globalização",
       "meaning":
-          "Instituição de ensino superior onde se realizam pesquisas e cursos acadêmicos.",
+          "Processo de integração econômica, cultural e social entre os países, impulsionado pelo avanço da tecnologia e do comércio internacional.",
       "video": "https://youtu.be/JU1CpdNt4e8?si=9HqwMZEvOUcvNie6"
     },
     {
       "id": 44,
       "name": "Economia",
       "meaning":
-          "Instituição de ensino superior onde se realizam pesquisas e cursos acadêmicos.",
+          "Ciência que estuda a produção, distribuição e consumo de bens e serviços em uma sociedade.",
       "video": "https://youtu.be/_hEKl574pOs?si=195403HY3Qg78HNc"
     },
     {
       "id": 45,
       "name": "Renascimento",
       "meaning":
-          "Instituição de ensino superior onde se realizam pesquisas e cursos acadêmicos.",
+          "Movimento cultural e artístico europeu entre os séculos XIV e XVI, caracterizado pelo resgate da cultura clássica e pelo avanço das artes e ciências.",
       "video": "https://youtu.be/pBNBk65ak60?si=ZeSero1h5b4BNSJp"
-    },
+    }
   ];
   static final epochs = [
     {"id": 1, "name": "Pré-Historia"},
