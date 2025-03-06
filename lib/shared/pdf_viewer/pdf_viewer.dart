@@ -21,9 +21,10 @@ class PdfViewerPage extends StatelessWidget {
   });
 
   void _downloadPdf() {
-    html.AnchorElement(href: path)
-      ..setAttribute("download", path.split('/').last)
-      ..click();
+    html.window.open(path, path.split('/').last);
+    // html.AnchorElement(href: path)
+    //   ..setAttribute("download", path.split('/').last)
+    //   ..click();
   }
 
   @override
