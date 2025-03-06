@@ -52,7 +52,7 @@ class HomeMobilePage extends GetView<HomeController> {
           items: const [
             BottomNavigationBarItem(
               icon: Icon(Icons.home),
-              label: 'Inicio',
+              label: 'InÍcio',
             ),
             BottomNavigationBarItem(
               icon: Icon(

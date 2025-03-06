@@ -35,13 +35,13 @@ class HomeWebPage extends GetView<HomeController> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            _buildNavButton('INICIO', 0),
+            _buildNavButton('INÍCIO', 0),
             const SizedBox(width: 16),
             _buildNavButton('ROTEIRO IMAGÉTICO', 1),
             const SizedBox(width: 16),
             _buildNavButton('GUIA', 2),
             const SizedBox(width: 16),
-            _buildNavButton('GLOSSARIO', 3),
+            _buildNavButton('GLOSSÁRIO', 3),
           ],
         ),
         backgroundColor: AppTheme.darkBlue,
